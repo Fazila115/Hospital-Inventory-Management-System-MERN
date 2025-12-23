@@ -1,0 +1,29 @@
+# Node modules (huge folder, can always reinstall)
+node_modules/
+
+# Environment variables (API keys, DB passwords)
+.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Build / output folders (if you have any)
+dist/
+build/
+
+# Mac or Linux system files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
