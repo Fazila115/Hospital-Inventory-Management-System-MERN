@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.label {
+  @apply text-teal-700 text-lg font-semibold;
+}
+
+.input {
+  @apply w-full p-2 bg-white rounded-md border border-gray-300 focus:border-teal-700 mb-3 placeholder-gray-500;
+}
+
+.priceInput {
+  @apply w-full p-2 bg-white rounded-md border border-gray-300 focus:border-teal-700 placeholder-gray-500;
+}
